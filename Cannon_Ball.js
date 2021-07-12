@@ -12,7 +12,7 @@ class Ball{
 
        this.body = Bodies.circle(this.x,this.y,this.r,opt);
        World.add(world,this.body);
-       this.img = loadImage("./assets/cannonball.png");
+       this.img = loadImage("cannonball.png");
 
     }
 
